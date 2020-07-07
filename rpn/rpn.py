@@ -2,8 +2,6 @@
 import torch
 from torch import nn
 from torch.nn import functional as F
-import sys 
-# sys.path.append("rpn")
 from .anchors import generate_anchor_base,_enumerate_shifted_anchor
 from utils import nms,loc2bbox
 import numpy as np

@@ -6,7 +6,7 @@ import cupy as cp
 import torch
 from torch import nn
 from torch.autograd import Function
-from roi_cupy import kernel_backward, kernel_forward
+from rpn.roi_cupy import kernel_backward, kernel_forward
 
 import warnings
 warnings.filterwarnings("ignore")
